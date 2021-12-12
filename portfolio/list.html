@@ -1,0 +1,224 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/resume.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <title>List</title>
+</head>
+<body>
+    
+    <main class="main-content">
+        <aside class="section aside">
+            <form class="search-form">
+                <div class="search-bar">
+                    <input type="text" placeholder="By Resumes" autocomplete="off" class="form-control txt-field">
+                    <button class="search-button"><i class="fal fa-search"></i></button>
+                </div>
+                <div class="dropdown location">
+                    <a class="form-control dropdown-toggle" href="#" role="button" id="location" data-bs-toggle="dropdown" aria-expanded="false">
+                      All locations
+                      <i class="fal fa-location"></i>
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="location">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+            </form>
+            <div class="filter-box">
+                <h3>Last activity</h3>
+                <div class="filter-group">
+                    <div class="checkbox">
+                        <input type="checkbox" id="html">
+                        <label for="html">HTML</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="css">
+                        <label for="css">CSS</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="javascript">
+                        <label for="javascript">Javascript</label>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-box">
+                <h3>specialisms</h3>
+                <div class="filter-group">
+                    <div class="checkbox">
+                        <input type="checkbox" id="html4">
+                        <label for="html4"><span class="label"><span>HTML</span><span>(3)</span></span></label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="css4">
+                        <label for="css4"><span class="label"><span>CSS</span><span>(5)</span></span></label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="javascript4">
+                        <label for="javascript4"><span class="label"><span>Javascript</span><span>(1)</span></span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-box filter-accordion">
+                <!-- <a class="cs-expand-filters accordion-button collapsed"><i class="icon-minus8"></i> Collapse all Filters</a> -->
+                <div class="accordion" id="accordion">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Experience
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapsed" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="filter-group">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="html1">
+                                    <label for="html1"><span class="label"><span>HTML</span><span>(3)</span></span></label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="css1">
+                                    <label for="css1"><span class="label"><span>CSS</span><span>(5)</span></span></label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="javascript1">
+                                    <label for="javascript1"><span class="label"><span>Javascript</span><span>(1)</span></span></label>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Age
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="filter-group">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="html2">
+                                    <label for="html2"><span class="label"><span>HTML</span><span>(3)</span></span></label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="css2">
+                                    <label for="css2"><span class="label"><span>CSS</span><span>(5)</span></span></label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="javascript2">
+                                    <label for="javascript2"><span class="label"><span>Javascript</span><span>(1)</span></span></label>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Educations
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="filter-group">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="html3">
+                                    <label for="html3"><span class="label"><span>HTML</span><span>(3)</span></span></label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="css3">
+                                    <label for="css3"><span class="label"><span>CSS</span><span>(5)</span></span></label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="javascript3">
+                                    <label for="javascript3"><span class="label"><span>Javascript</span><span>(1)</span></span></label>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </aside>
+        <section class="section content">
+            <header>
+                <div id="menu">
+                    <div class="circle-menu">
+                        <div class="hamburger">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="inner-menu js-menu">
+                        <ul id="menu-main-menu" class="nav">
+                            <li class="menu-item-has-children nav__item">
+                                <a class="" href="#">
+                                    <span class="animated-button">
+                                        <span>Home</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="" href="#"><span class="animated-button"><span>Resume</span></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="candidates">
+                <div class="candidate__item">
+                    <div class="candidate__image">
+                        <img src='./img/candidate.jpeg' alt="avatar" />
+                    </div>
+                    <div class="candidate__info">
+                        <h4 class="item__name">University School of the Art</h4>
+                        <div class="item__time"><span>2007 - 2009</span><span>Last Activity 6 years ago</span></div>
+                        <p class="item__content">Purchase Ledger Clerk</p>
+                    </div>
+                    <div class="candidate__action">
+                        <button class="btn btn-primary btn-list">Short list</button>
+                    </div>
+                </div>
+                <div class="candidate__item">
+                    <div class="candidate__image">
+                        <img src='./img/candidate.jpeg' alt="avatar" />
+                    </div>
+                    <div class="candidate__info">
+                        <h4 class="item__name">University School of the Art</h4>
+                        <div class="item__time"><span>2007 - 2009</span></div>
+                        <p class="item__content">Purchase Ledger Clerk</p>
+                    </div>
+                    <div class="candidate__action">
+                        <button class="btn btn-primary btn-list">Short list</button>
+                    </div>
+                </div>
+                <div class="candidate__item">
+                    <div class="candidate__image">
+                        <img src='./img/candidate.jpeg' alt="avatar" />
+                    </div>
+                    <div class="candidate__info">
+                        <h4 class="item__name">University School of the Art</h4>
+                        <div class="item__time"><span>2007 - 2009</span>></div>
+                        <p class="item__content">Purchase Ledger Clerk</p>
+                    </div>
+                    <div class="candidate__action">
+                        <button class="btn btn-primary btn-list">Short list</button>
+                    </div>
+                </div>
+            </div>
+             <footer class="footer"><p> © 2021 All Rights Reserved.</p></footer>
+        </section>   
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/js.js"></script>
+</body>
+</html> 
